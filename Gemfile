@@ -1,7 +1,5 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-ruby RUBY_VERSION
-
-gem 'pry'
-
-gemspec
+gem 'quickbooks-ruby', path: '.'
+gem 'dotenv'
+gem 'oauth2'
